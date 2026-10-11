@@ -12,6 +12,7 @@
 | 交付物 | 位置 | 说明 |
 |---|---|---|
 | 论文全文（≥6000 字） | [`paper/`](paper/) | 摘要 + 绪论 + 理论 + 假设 + 五步测度 + 实证 + 结论，8295 中文字符 |
+| Word 版论文（含封面/目录/正文/参考文献） | `paper/*.docx` | 由 Markdown 版排版导出，A4 三线表、正文页脚页码、目录内链 |
 | 可复现代码 | [`code/`](code/) | 五步流水线 + 实证分析 + 配图，一键运行 |
 | **测度结果表** | `data/processed/panel_measure.csv` | 企业—年份面板，可直接导入 Stata / Python |
 | 数据来源说明 | [`docs/01_数据来源说明.md`](docs/01_数据来源说明.md) | 每个文件的来源与处理步骤 |
@@ -122,7 +123,7 @@ python code/step7_make_figures.py
 
 ```
 nlp-thesis-managerial-myopia/
-├── paper/                 # 论文全文（Markdown）
+├── paper/                 # 论文全文（Markdown + Word 两个版本）
 ├── code/                  # 五步流水线 + 实证分析 + 配图
 ├── data/
 │   ├── dictionary/        # 43 词短视词典 + 停用词表（随论文公开）
