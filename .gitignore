@@ -1,0 +1,22 @@
+# 忽略 Python 运行产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 中间数据（可由 code/run_all.py 重新生成）
+data/interim/
+data/raw/mda/
+run_log.txt
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+~$*
